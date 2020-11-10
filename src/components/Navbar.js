@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './Navbar.css';
 import { animateScroll as scroll } from "react-scroll";
 
@@ -39,7 +39,7 @@ function Navbar() {
                 </div>
                 <ul className={ click ? 'nav-menu active' : 'nav-menu' }>
                     <li className='nav-item'>
-                        <Link to="Home" spy={true} smooth={true} offset={-70} duration={700} className='nav-links' onClick={ closeMobileMenu }>Home</Link>
+                        <Link to="/" spy={true} smooth={true} offset={-70} duration={700} className='nav-links' onClick={ closeMobileMenu }>Home</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="About" spy={true} smooth={true} offset={-70} duration={700} className='nav-links' onClick={ closeMobileMenu }>About</Link>
@@ -53,8 +53,11 @@ function Navbar() {
                     <li className='nav-item'>
                         <Link to="Experience" spy={true} smooth={true} offset={-70} duration={700} className='nav-links' onClick={ closeMobileMenu }>Experience</Link>
                     </li>
+                    <li className='nav-item'>
+                        <Link to="Contact" spy={true} smooth={true} offset={-70} duration={700} className='nav-links' onClick={ closeMobileMenu }>Let's Talk</Link>
+                    </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+                {/* {button && <Button buttonStyle='btn--outline'>Contact Me</Button>} */}
             </div>
         </nav>  
     )

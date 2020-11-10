@@ -1,0 +1,53 @@
+.main-wrapper{
+    height: 100vh;  
+    background: url('../images/exp.webp') center center/cover no-repeat;
+}
+
+.main-wrapper h1{
+    border: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.Exp-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.exp-items{
+    padding: 2px;
+    width: 80vw;
+}
+
+.exp-role{
+    color: red;
+    font-size: 34px;
+}
+
+.exp-company{
+    color: blue;
+    font-size: 24px;
+}
+
+.exp-duration{
+    color: white;
+    font-size: 18px;
+}
+
+.exp-tasks{
+    color: pink;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 760px){
+    .exp-tasks{
+        display: none;
+    }
+}

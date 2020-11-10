@@ -11,14 +11,14 @@
 }
 
 .hero-container > h1{
-    color: white;
+    color: lightseagreen;
     font-size: 100px;
     border: none;
 }
 
 .hero-container > p{
     margin-top: 8px;
-    color: white;
+    color: purple;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

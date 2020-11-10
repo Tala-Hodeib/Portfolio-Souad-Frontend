@@ -23,13 +23,13 @@ function sendEmail(e) {
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="Contact">
             <h1>Contact Me</h1>
             <section className="footer-contact">
                 <p className="footer-contact-heading">
                     Let's Make Something Great Together
                 </p>
-                <div className="input-areas">
+                {/* <div className="input-areas">
                     <form onSubmit={sendEmail}>
 				<div class="fields">
 					<div class="field">
@@ -43,22 +43,23 @@ function Footer() {
 					</div>
 				</div>
                 <input type="submit" className="btm btn-info" value="send message" />
-                {/* <Button buttonStyle='btn--outline'>Send Me an Email</Button> */}
+                <Button buttonStyle='btn--outline'>Send Me an Email</Button>
 			</form>
-                </div>
+                </div> */}
             </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <Link to="/">Email</Link>
+                        <Link to="/Contact">Email</Link>
                     </div>
                     <div className="footer-link-items">
-                        <Link to="/">Facebook</Link>
+                        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
                     </div>
-                </div>
-                <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <Link to="/">Twitter</Link>
+                    <a href="https://www.twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+                    </div>
+                    <div className="footer-link-items">
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer">YouTube</a>
                     </div>
                 </div>
             </div>
